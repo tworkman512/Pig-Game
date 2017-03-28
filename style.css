@@ -45,7 +45,25 @@ body {
     padding: 100px;
 }
 
+.final-score {
+    position: absolute;
+    top: 520px;
+    width: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    font-family: Lato;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.final-score:focus {
+    outline: none;
+}
+
+#dice-1 { top: 120px; }
+#dice-2 { top: 250px; }
 
 /**********************************************
 *** PLAYERS
